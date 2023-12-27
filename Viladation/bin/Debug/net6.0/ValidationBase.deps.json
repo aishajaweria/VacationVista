@@ -1,0 +1,167 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ValidationBase/1.0.0": {
+        "dependencies": {
+          "LeaveManagementSystem1.1": "1.0.0",
+          "System.Windows.Forms": "4.0.0.0"
+        },
+        "runtime": {
+          "ValidationBase.dll": {}
+        }
+      },
+      "LeaveManagementSystem1.1/1.0.0": {
+        "runtime": {
+          "LeaveManagementSystem1.1.exe": {}
+        }
+      },
+      "System.Windows.Forms/4.0.0.0": {
+        "runtime": {
+          "System.Windows.Forms.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.3761.0"
+          }
+        }
+      },
+      "CrystalDecisions.Windows.Forms/13.0.2000.0": {
+        "runtime": {
+          "CrystalDecisions.Windows.Forms.dll": {
+            "assemblyVersion": "13.0.2000.0",
+            "fileVersion": "13.0.18.2192"
+          }
+        }
+      },
+      "CrystalDecisions.CrystalReports.Engine/13.0.2000.0": {
+        "runtime": {
+          "CrystalDecisions.CrystalReports.Engine.dll": {
+            "assemblyVersion": "13.0.2000.0",
+            "fileVersion": "13.0.18.2192"
+          }
+        }
+      },
+      "MySql.Data/6.4.4.0": {
+        "runtime": {
+          "MySql.Data.dll": {
+            "assemblyVersion": "6.4.4.0",
+            "fileVersion": "6.4.4.0"
+          }
+        }
+      },
+      "Accessibility/4.0.0.0": {
+        "runtime": {
+          "Accessibility.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.3761.0"
+          }
+        }
+      },
+      "System.Deployment/4.0.0.0": {
+        "runtime": {
+          "System.Deployment.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.3761.0"
+          }
+        }
+      },
+      "System.Runtime.Serialization.Formatters.Soap/4.0.0.0": {
+        "runtime": {
+          "System.Runtime.Serialization.Formatters.Soap.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.3761.0"
+          }
+        }
+      },
+      "CrystalDecisions.Shared/13.0.2000.0": {
+        "runtime": {
+          "CrystalDecisions.Shared.dll": {
+            "assemblyVersion": "13.0.2000.0",
+            "fileVersion": "13.0.18.2192"
+          }
+        }
+      },
+      "CrystalDecisions.ReportSource/13.0.2000.0": {
+        "runtime": {
+          "CrystalDecisions.ReportSource.dll": {
+            "assemblyVersion": "13.0.2000.0",
+            "fileVersion": "13.0.18.2192"
+          }
+        }
+      },
+      "FlashControlV71/1.0.3187.32366": {
+        "runtime": {
+          "FlashControlV71.dll": {
+            "assemblyVersion": "1.0.3187.32366",
+            "fileVersion": "1.0.3187.32366"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ValidationBase/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LeaveManagementSystem1.1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Windows.Forms/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CrystalDecisions.Windows.Forms/13.0.2000.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CrystalDecisions.CrystalReports.Engine/13.0.2000.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MySql.Data/6.4.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Accessibility/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Deployment/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Runtime.Serialization.Formatters.Soap/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CrystalDecisions.Shared/13.0.2000.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CrystalDecisions.ReportSource/13.0.2000.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FlashControlV71/1.0.3187.32366": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
