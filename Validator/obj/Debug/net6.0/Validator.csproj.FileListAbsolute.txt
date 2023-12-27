@@ -1,0 +1,5 @@
+D:\LeaveSystem\Validator\obj\Debug\net6.0\Validator.csproj.AssemblyReference.cache
+D:\LeaveSystem\Validator\obj\Debug\net6.0\Validator.GeneratedMSBuildEditorConfig.editorconfig
+D:\LeaveSystem\Validator\obj\Debug\net6.0\Validator.AssemblyInfoInputs.cache
+D:\LeaveSystem\Validator\obj\Debug\net6.0\Validator.AssemblyInfo.cs
+D:\LeaveSystem\Validator\obj\Debug\net6.0\Validator.csproj.CoreCompileInputs.cache

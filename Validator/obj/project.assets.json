@@ -1,0 +1,130 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "LeaveManagementSystem1.1/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/LeaveManagementSystem1.1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LeaveManagementSystem1.1.dll": {}
+        }
+      },
+      "ValidationBase/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "LeaveManagementSystem1.1": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ValidationBase.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ValidationBase.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LeaveManagementSystem1.1/1.0.0": {
+      "type": "project",
+      "path": "../LeaveManagementSystem1.1/LeaveManagementSystem1.1.csproj",
+      "msbuildProject": "../LeaveManagementSystem1.1/LeaveManagementSystem1.1.csproj"
+    },
+    "ValidationBase/1.0.0": {
+      "type": "project",
+      "path": "../Viladation/ValidationBase.csproj",
+      "msbuildProject": "../Viladation/ValidationBase.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "LeaveManagementSystem1.1 >= 1.0.0",
+      "ValidationBase >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\DELL\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\LeaveSystem\\Validator\\Validator.csproj",
+      "projectName": "Validator",
+      "projectPath": "D:\\LeaveSystem\\Validator\\Validator.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "D:\\LeaveSystem\\Validator\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\LeaveSystem\\LeaveManagementSystem1.1\\LeaveManagementSystem1.1.csproj": {
+              "projectPath": "D:\\LeaveSystem\\LeaveManagementSystem1.1\\LeaveManagementSystem1.1.csproj"
+            },
+            "D:\\LeaveSystem\\Viladation\\ValidationBase.csproj": {
+              "projectPath": "D:\\LeaveSystem\\Viladation\\ValidationBase.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.24, 6.0.24]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.24, 6.0.24]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.24, 6.0.24]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.24, 6.0.24]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
